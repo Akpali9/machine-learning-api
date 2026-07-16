@@ -4,6 +4,7 @@ import path from 'path';
 /**
  * Get the Python executable path from the virtual environment
  */
+
 export function getPythonPath(): string {
   const venvPath = path.join(process.cwd(), '.venv');
   const pythonPath = path.join(venvPath, 'bin', 'python');
