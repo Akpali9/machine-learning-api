@@ -10,6 +10,7 @@ async function loadModel() {
   if (cachedModel && cachedScaler && modelMetadata) {
     return { model: cachedModel, scaler: cachedScaler, metadata: modelMetadata };
   }
+  
 
   const pythonScript = `
 import os
