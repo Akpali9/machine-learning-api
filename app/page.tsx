@@ -13,6 +13,7 @@ interface PredictionResult {
   };
 }
 
+
 interface ModelInfo {
   classes: string[];
   features: string[];
