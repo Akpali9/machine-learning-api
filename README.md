@@ -1,5 +1,3 @@
-# machine-learning-api
-
  
 ## Getting Started
 
