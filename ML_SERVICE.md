@@ -338,6 +338,7 @@ export default {
 };
 ```
 
+
 **Using Standalone Flask API:**
 - Deploy Python service separately
 - Next.js calls external ML service
